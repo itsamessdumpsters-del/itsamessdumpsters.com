@@ -348,7 +348,7 @@ function ContactForm() {
                   <div className="font-display text-xl group-hover:text-brand-orange transition">{PHONE_DISPLAY}</div>
                 </div>
               </a>
-              <a href="mailto:hello@itsamessdumpsters.com" className="flex items-center gap-3 group">
+              <a href="mailto:ItsAmessDumpsters@gmail.com" className="flex items-center gap-3 group">
                 <div className="h-11 w-11 rounded-lg bg-brand-green text-white flex items-center justify-center">
                   <Mail className="h-5 w-5" />
                 </div>
