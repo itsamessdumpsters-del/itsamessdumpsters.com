@@ -354,7 +354,7 @@ function ContactForm() {
                 </div>
                 <div>
                   <div className="text-xs uppercase tracking-widest text-white/60">Email</div>
-                  <div className="font-display text-xl group-hover:text-brand-orange transition">hello@itsamessdumpsters.com</div>
+                  <div className="font-display text-xl group-hover:text-brand-orange transition">ItsAmessDumpsters@gmail.com</div>
                 </div>
               </a>
             </div>
