@@ -16,8 +16,8 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const PHONE_DISPLAY = "(816) 555-0199";
-const PHONE_TEL = "+18165550199";
+const PHONE_DISPLAY = "816-309-9435";
+const PHONE_TEL = "+18163099435";
 
 function Home() {
   return (
@@ -348,13 +348,13 @@ function ContactForm() {
                   <div className="font-display text-xl group-hover:text-brand-orange transition">{PHONE_DISPLAY}</div>
                 </div>
               </a>
-              <a href="mailto:hello@itsamessdumpsters.com" className="flex items-center gap-3 group">
+              <a href="mailto:ItsAmessDumpsters@gmail.com" className="flex items-center gap-3 group">
                 <div className="h-11 w-11 rounded-lg bg-brand-green text-white flex items-center justify-center">
                   <Mail className="h-5 w-5" />
                 </div>
                 <div>
                   <div className="text-xs uppercase tracking-widest text-white/60">Email</div>
-                  <div className="font-display text-xl group-hover:text-brand-orange transition">hello@itsamessdumpsters.com</div>
+                  <div className="font-display text-xl group-hover:text-brand-orange transition">ItsAmessDumpsters@gmail.com</div>
                 </div>
               </a>
             </div>
@@ -429,7 +429,7 @@ function Footer() {
             <h4 className="font-display uppercase text-lg">Contact</h4>
             <ul className="mt-3 space-y-2 text-sm">
               <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand-orange" /> {PHONE_DISPLAY}</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange" /> hello@itsamessdumpsters.com</li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange" /> ItsAmessDumpsters@gmail.com</li>
               <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand-orange" /> Serving Greater Kansas City</li>
             </ul>
           </div>
