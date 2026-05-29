@@ -16,8 +16,8 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const PHONE_DISPLAY = "(816) 555-0199";
-const PHONE_TEL = "+18165550199";
+const PHONE_DISPLAY = "816-309-9435";
+const PHONE_TEL = "+18163099435";
 
 function Home() {
   return (
