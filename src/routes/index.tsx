@@ -429,7 +429,7 @@ function Footer() {
             <h4 className="font-display uppercase text-lg">Contact</h4>
             <ul className="mt-3 space-y-2 text-sm">
               <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand-orange" /> {PHONE_DISPLAY}</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange" /> hello@itsamessdumpsters.com</li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange" /> ItsAmessDumpsters@gmail.com</li>
               <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand-orange" /> Serving Greater Kansas City</li>
             </ul>
           </div>
