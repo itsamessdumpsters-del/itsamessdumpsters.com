@@ -428,9 +428,9 @@ function Footer() {
           <div>
             <h4 className="font-display uppercase text-lg">Contact</h4>
             <ul className="mt-3 space-y-2 text-sm">
-              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand-orange flex-shrink-0" /> <span>{PHONE_DISPLAY}</span></li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange flex-shrink-0" /> <span>ItsAmessDumpsters@gmail.com</span></li>
-              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand-orange flex-shrink-0" /> <span>Serving Greater Kansas City</span></li>
+              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand-orange flex-shrink-0" /><span>{PHONE_DISPLAY}</span></li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange flex-shrink-0" /><span>ItsAmessDumpsters@gmail.com</span></li>
+              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand-orange flex-shrink-0" /><span>Serving Greater Kansas City</span></li>
             </ul>
           </div>
         </div>
