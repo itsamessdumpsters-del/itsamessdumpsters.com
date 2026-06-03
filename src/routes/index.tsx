@@ -428,14 +428,14 @@ function Footer() {
           <div>
             <h4 className="font-display uppercase text-lg">Contact</h4>
             <ul className="mt-3 space-y-2 text-sm">
-              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand-orange" /> {PHONE_DISPLAY}</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange" /> ItsAmessDumpsters@gmail.com</li>
-              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand-orange" /> Serving Greater Kansas City</li>
+              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand-orange flex-shrink-0" /> <span>{PHONE_DISPLAY}</span></li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand-orange flex-shrink-0" /> <span>ItsAmessDumpsters@gmail.com</span></li>
+              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand-orange flex-shrink-0" /> <span>Serving Greater Kansas City</span></li>
             </ul>
           </div>
         </div>
         <div className="mt-10 pt-6 border-t border-white/10 text-xs text-white/50 flex flex-col md:flex-row gap-2 justify-between">
-          <div>© {new Date().getFullYear()} It's A Mess Dumpsters. All rights reserved.</div>
+          <div>© 2026 It's A Mess Dumpsters. All rights reserved.</div>
           <div>Locally owned & operated · Licensed & insured</div>
         </div>
       </div>
